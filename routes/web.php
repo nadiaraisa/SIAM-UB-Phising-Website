@@ -20,6 +20,8 @@ Route::get('/registrasi', [RegistrasiController::class, 'showForm']);
 // Rute untuk menangani pendaftaran
 Route::post('/registrasi', [RegistrasiController::class, 'prosesRegistrasi']);
 
+Route::get('/sukses', [RegistrasiController::class, 'showSuccessPage']);
+
 Route::get('/', function () {
     return view('welcome');
 });

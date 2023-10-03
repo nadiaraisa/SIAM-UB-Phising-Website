@@ -23,6 +23,14 @@ class RegistrasiController extends Controller
         // Simpan data ke database
         Registrasi::create($data);
 
-        return redirect('/registrasi')->with('success', 'Registrasi berhasil!');
+        return redirect('/sukses')->with('success', 'Registrasi berhasil!');
     }
+
+    public function showSuccessPage()
+    {
+    return view('success');
+    }
+
 }
+
+
