@@ -110,7 +110,7 @@ body{
                         <label for="password">Password</label>
                         <input type="password" id="password" name="password" class="form-control mb-2" placeholder="Password" required>
                     </div>
-                    <button type="submit" class="btn btn-primary">Daftar</button>
+                    <button type="submit" class="btn btn-primary">Masuk</button>
                 </form>
     
                 @if(session('success'))
